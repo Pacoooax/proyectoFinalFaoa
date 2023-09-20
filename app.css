@@ -45,7 +45,7 @@ estableciendo el valor cover para el tamaño y la posición del fondo.*/
 .hero-image {
     /*flex: 1 0 100vw;*/
     height: 60vw;
-    background-image: url("principal.jpg");
+    background-image: url("imagenes/principal.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
