@@ -29,6 +29,7 @@ h2 {
     font-size: 4rem;
 }
 
+
 h3 {
     font-size: 4rem;
 }
@@ -41,7 +42,18 @@ estableciendo el valor cover para el tamaño y la posición del fondo.*/
     align-items: center;
     justify-content: center;
 }
+.imagen-crecimiento{
+    transition: transform 0.3s;
+    
+    
+}
+.imagen-crecimiento:hover
+{
+transform: scale(1.02);
+overflow: hidden;
 
+
+}
 .hero-image {
     /*flex: 1 0 100vw;*/
     height: 60vw;
@@ -50,6 +62,7 @@ estableciendo el valor cover para el tamaño y la posición del fondo.*/
     background-repeat: no-repeat;
     background-size: cover;
 }
+
   
   .hero-text {
     flex: 1 0 100%;
@@ -111,7 +124,10 @@ Utiliza Flexbox o Grid para que la sección de productos luzca como la maqueta.
 .foto1{
     display: flex;
     max-width: 60%;
+    
+
 }
+
 .foto1 img{
     border-radius: 6px 0px 0px 6px;
 }
